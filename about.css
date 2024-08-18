@@ -1,0 +1,78 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+
+
+
+  .button-container {
+    background-color: rgba(0, 38, 255, 0); /* Fully transparent background */
+    padding: 10px;
+    border-radius: 10px; /* Rounded corners */
+    box-shadow: none; /* No shadow */
+}
+.go-back-button {
+  position: fixed;
+  margin-top: -40%;
+  margin-left: 0%; 
+    background-color: #000000; /* Blue background */
+    color: rgb(255, 255, 255); /* White text */
+    border: none;
+    border-radius: 5px; /* Rounded corners */
+    padding: 15px 30px; /* Top and bottom, left and right padding */
+    font-size: 16px; /* Font size */
+    cursor: pointer; /* Pointer cursor on hover */
+    transition: background-color 0.3s ease; /* Smooth transition for background color */
+}
+.go-back-button:hover {
+    background-color: #ffffff; /* Darker blue on hover */
+}
+.go-back-button:focus {
+    outline: none; /* Remove default focus outline */
+}
+
+  button {
+    background-color: #fff;
+    border: none;
+    color: #aaa;
+    cursor: pointer;
+    font-size: 16px;
+    padding: 15px;
+  }
+  
+  button:hover {
+    color: #222;
+  }
+  
+  button:focus {
+    outline: none;
+  }
+
+  body {
+    font-family: 'Open Sans', sans-serif;
+    height: 100vh;
+  }
+  h1 {
+    color: aliceblue;
+    margin-left: 7%;
+    margin-top: -30%;
+  }
+  img {
+    
+    margin-top: 7%;
+    margin-left: 60%;
+    border-radius: 50%;
+
+  }
+
+
+  p {
+    color: aliceblue;
+    margin-left: 7%;
+
+
+  }
+
+
+  
